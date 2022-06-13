@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>calculadora</title>
+ 
+ </head>
+ <body >
+    <form class="cal" name="calculadora" >
+ <INput class="resultado" type="textfield" name="ans" value="" autocomplete="off"  ></INput>
+<input class="cal_td_button_cielo" type="button" value="AC"  onclick="borrar()">
+<input  class="cal_td_button_cielo" type="button" value="+/-">
+<input  class="cal_td_button_cielo" type="button" value="%"  onclick="porcentaje()">
+<input class="cal_td_button_yellow" type="button" value="/" onclick="div()">
+<br>
+<input class="cal_td_button" type="button" value="7" onclick="num7()">
+<input  class="cal_td_button" type="button" value="8"  onclick="num8()"   >
+<input  class="cal_td_button" type="button" value="9"  onclick="num9()" >
+<input class="cal_td_button_yellow" type="button" value="*"  onclick="mult()">
+<br>
+<input  class="cal_td_button" type="button" value="4"  onclick="num4()" >
+<input  class="cal_td_button" type="button" value="5"  onclick="num5()">
+<input  class="cal_td_button" type="button" value="6"  onclick="num6()">
+<input class="cal_td_button_yellow" type="button" value="-" onclick="resta()" >
+<br>
+<input  class="cal_td_button" type="button" value="1"  onclick="num1()">
+<input  class="cal_td_button" type="button" value="2"  onclick="num2()">
+<input  class="cal_td_button" type="button" value="3"  onclick="num3()">
+<input class="cal_td_button_yellow" type="button" value="+" onclick="sum()">
+<br>
+
+<input  class="boton0" type="button" value="0"  onclick="num0()">
+<input  class="cal_td_button" type="button" value="."  onclick="punto()">
+<input class="cal_td_button_yellow"  type="button" value="="  onclick="igual()">
+<br>
+    </form>
+
+ </body>   
+ <script src="js/code.js"></script>
+ </html>
